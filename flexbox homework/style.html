@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+@media(min-width: 760px){
+    .container-1{
+        display:flex;
+        align-items:center;
+    }
+
+    .container-2{
+        display:flex;
+        justify-content:space-around;
+    }
+    .container-3{
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
+
+    .container-1 div, .container-2 div, .container-3 div{
+        border:1px #ccc solid;
+        padding:10px;
+    }
+
+    .box-1{
+        flex:1.5;
+        order:1;
+    }
+
+    .box-2{
+        flex:1;
+        order:2;
+    }
+
+    .box-3{
+        flex:1.5;
+        order:3;
+    }
+
+    .container-2-box{
+        flex-basis:20%
+    }
+
+    .container-3-box{
+        flex-basis:15%
+    }
+
+</style>
+</head>
+
+<html>
+<body>
+
+<div class="container-1">
+    <div class="box-1">
+        <h3>ANTI-FLAG</h3>
+        <img src="img/Anti-Flag Old.jpg"
+    </div>
+    <div class="box-2">
+        <h3>Middle</h3>
+        <p>Crispy BOIZ</p>
+    </div>    
+    <div class="box-3">
+        <h3>Tom>></h3>
+        <p>Working on the weekday</p>
+    </div>
+</div>
+
+<div class="container-2">
+    <div class="container-2-box">
+        <h3>Flexing</h3>
+        <p>For the week</p>
+    </div>
+    <div class="container-2-box">
+        <h3>Flexing</h3>
+        <p>All the time</p>
+    </div>    
+    <div class="container-2-box">
+        <h3>Flexing</h3>
+        <p>For the weekend</p>
+    </div>
+</div>
+
+<div class="container-3">
+    <div class="container-3-box">
+        <h3>Bunnies</h3>
+        <p>Hop around</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Dogs</h3>
+        <p>Run around</p>
+    </div>    
+    <div class="container-3-box">
+        <h3>Cats</h3>
+        <p>Tip toe around</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Monkeys</h3>
+        <p>Hang around</p>
+    </div>
+    <div class="container-3-box">
+        <h3>Otters</h3>
+        <p>Swim around</p>
+    </div>    
+    <div class="container-3-box">
+        <h3>Mice</h3>
+        <p>Scrurry</p>
+    </div>
+</div>
+
+</body>
+</html>
